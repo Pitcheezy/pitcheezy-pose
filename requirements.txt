@@ -1,0 +1,18 @@
+# 야구 투구 분석 시스템 의존성 파일
+# Python 버전: 3.8+
+# 설치 방법: pip install -r requirements.txt
+
+# 핵심 컴퓨터 비전 라이브러리
+mediapipe>=0.10.0
+opencv-python>=4.8.0
+numpy>=1.21.0
+pandas>=1.5.0
+
+# 선택적 라이브러리 (필요시 설치)
+matplotlib>=3.5.0  # 시각화용 (현재 미사용)
+scipy>=1.7.0      # 고급 수학 연산 (현재 미사용)
+
+# 개발 도구 (선택사항)
+black>=22.0.0      # 코드 포맷팅
+flake8>=4.0.0      # 린팅
+pytest>=7.0.0      # 테스트 프레임워크
